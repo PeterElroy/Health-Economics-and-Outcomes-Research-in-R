@@ -1,7 +1,6 @@
-# Parameters
+# Parameters #############################################
 
 # --- Transition probabilities (TP)
-
 TransitionEvents <- matrix(c(1251, 350, 116 , 17 ,
                              0   , 731, 512 , 15 ,
                              0   , 0  , 1312, 437,
@@ -12,23 +11,19 @@ TP <- TransitionEvents/rowSums(TransitionEvents)
 
 
 # --- Costs (C)
-
 C <- matrix(c(dmca = 1701, dmcb = 1774, dmcc = 6948, 0,
               ccca = 1055, cccb = 1278, cccc = 2059, 0),
             2,4, byrow = TRUE, dimnames = list(c("Direct Medical", "Community"),c("A","B","C","D")))
 
 c
 # --- Drug costs (DC)
-
 DC <- c(CAZT = 2278, CLam = 2086.50)
 
 # --- Other parameters (OP)
-
 OP <- c(RR = 0.509, cDR = 0.06, ODR = 0)
 
 
-# Markov model
-
+# Markov model ############################################
 
 NCycles <- 20
 TraceMarkov = matrix(nrow = NCycles, ncol = 4)
@@ -39,6 +34,19 @@ for(n in 2:NCycles){
 
 if(sum(round(rowSums(TraceMarkov),10) == 1) != nrow(TraceMarkov)) stop("Markov trace does not sum to 1 for all cycles")
 
-TraceLY <- rowSums(TraceMarkov) - TraceMarkov[,4]
+TraceLYsHono <- rowSums(TraceMarkov) - TraceMarkov[,4]
 
-# Analysis
+
+# Analysis #################################################
+
+LYsMono <- sum(TraceLYsMono)
+# CostsMono <- sum(TraceCostsMono)
+#
+# LYsComb <- sum(TraceLYsComb)
+# CostComb <- sum(TraceCostComb)
+#
+# LYG <- LYsComb - LYsMono
+# IncCost <- CostComb - CostMono
+# 
+# ICER = IncCost / LYG
+
