@@ -34,7 +34,7 @@ for(n in 2:NCycles){
 
 if(sum(round(rowSums(TraceMarkov),10) == 1) != nrow(TraceMarkov)) stop("Markov trace does not sum to 1 for all cycles")
 
-TraceLYsHono <- rowSums(TraceMarkov) - TraceMarkov[,4]
+TraceLYsMono <- rowSums(TraceMarkov) - TraceMarkov[,4]
 
 
 # Analysis #################################################
@@ -49,4 +49,3 @@ LYsMono <- sum(TraceLYsMono)
 # IncCost <- CostComb - CostMono
 # 
 # ICER = IncCost / LYG
-
