@@ -12,7 +12,7 @@ This page is dedicated to learning how to build a Markov model in R, starting fr
   - [Statistical Programming and Applications](https://acaimo.github.io/teaching/MAIN/Stat_Prog_App.html) module from the University of Dublin.
   - [Topics in Applied Statistics](https://acaimo.github.io/teaching/MAIN/Topics_App_Stats.html) module from the University of Dublin.
 
-Below here is a simple tutorial for GitHub pages that has nothing to do with the R study club.
+Below here is a simple tutorial for GitHub pages that has nothing to do with the R study club...
 
 ## Intro 
 You can use the [editor on GitHub](https://github.com/PeterElroy/R-Study-Club/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
