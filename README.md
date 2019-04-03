@@ -2,8 +2,7 @@
 
 This page is dedicated to learning how to perform a cost-effectiveness data-analysis in R with a focus on the field of Health Economics and Outcomes Research. It does not consider R to be the only valid development platform for data science, but as good a place to start as any. The learning materials used are all freely available, thanks to all the educators and developers who shared them with everyone.
 
-
-he plan is based purely on freely available materials so that anyone can access them, with a thank you to all the educators and developers who made these materials available. We follow the excercise of building a simple Markov chain model laid out in exercise 2.5 of Decision Modelling in Health Economic Evaluation using freely available learning starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. We do so by reproducing a simple exercise at increasing levels of difficulty;
+We follow the excercise of building a simple Markov chain model laid out in exercise 2.5 of Decision Modelling in Health Economic Evaluation using freely available learning starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. We do so by reproducing a simple exercise at increasing levels of difficulty;
 
 1. A working knowledge is assumed that allows you to understand what's going on in the solution of exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.). This Excel file can be viewed in the freely available software package [Libre Office](https://www.libreoffice.org/).
 2. Get started with R using [Swirl](https://swirlstats.com/students.html/) and choose the 'R programming' course when you see it. You can use the [Base R](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf) cheatsheet as a nice reference.
