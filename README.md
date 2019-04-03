@@ -1,6 +1,6 @@
-# Markov modelling in R
+# Cost-effectiveness analysis in R
 
-This page is dedicated to learning how to build a Markov model in R, starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. To do so, a simple approach is being followed;
+This page is dedicated to learning how to perform cost-effectiveness data-analysis in R, starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. We do so by reproducing a simple exercise at increasing levels of difficulty;
 
 - [x] Do exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.) in R. This is optional for those comfortable with Excel.
 - [x] Get started with R using [Swirl](https://swirlstats.com/students.html/)
