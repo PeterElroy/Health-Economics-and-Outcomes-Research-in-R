@@ -2,11 +2,11 @@
 
 This page is dedicated to learning how to build a Markov model in R, starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. To do so, a simple approach is being followed;
 
--[x] Do exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.) in R. This is optional for those comfortable with Excel.
--[x] Get started with R using [Swirl](https://swirlstats.com/students.html/)
+- [x] Do exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.) in R. This is optional for those comfortable with Excel.
+- [x] Get started with R using [Swirl](https://swirlstats.com/students.html/)
   - use the [Base R](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf) cheatsheet as a nice reference.
--[X] Reproduce exercise 2.5 from Briggs et al. in R.
--[ ] Learn intermediate and advanced R topics from the list below (we'll find out which ones will prove to be essential)
+- [X] Reproduce exercise 2.5 from Briggs et al. in R.
+- [ ] Learn intermediate and advanced R topics from the list below (we'll find out which ones will prove to be essential)
   - [Tidyverse package](https://www.tidyverse.org/) for additional data science tools. Learning either through the book [R for Data Science](https://r4ds.had.co.nz) or the Swirl course [Getting and Cleaning Data](http://swirlstats.com/scn/getclean.html).
   - [Heemod package](https://www.rdocumentation.org/packages/heemod) for tools specific to health economic outcomes research.
   - [Statistical Programming and Applications](https://acaimo.github.io/teaching/MAIN/Stat_Prog_App.html) module from the University of Dublin.
