@@ -17,5 +17,3 @@ An R Study Club is currently following the g path outlined on this page, and we 
  5. Learn R shiny to create clean web interface to present your models with. There is an official course over on [Datacamp](https://www.datacamp.com/home/).
  6. Reproduce the Briggs et al. exercise in R Shiny.
  7. Develop your own cool R Shiny HEOR widget.
- 
- This page will gradually be updated as we go throu
