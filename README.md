@@ -5,18 +5,18 @@ This page is dedicated to learning how to perform a cost-effectiveness data-anal
 
 he plan is based purely on freely available materials so that anyone can access them, with a thank you to all the educators and developers who made these materials available. We follow the excercise of building a simple Markov chain model laid out in exercise 2.5 of Decision Modelling in Health Economic Evaluation using freely available learning starting from using basic R code to build a simple Markov chain, to presenting statistical uncertainty in R Shiny. We do so by reproducing a simple exercise at increasing levels of difficulty;
 
-1 [x] A working knowledge is assumed that allows you to understand what's going on in the solution of exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.). This Excel file can be viewed in the freely available software package [Libre Office](https://www.libreoffice.org/).
-2 [x] Get started with R using [Swirl](https://swirlstats.com/students.html/) and choose the 'R programming' course when you see it.
+1 A working knowledge is assumed that allows you to understand what's going on in the solution of exercise 2.5 from [Decision Modelling in Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation) (Briggs et al.). This Excel file can be viewed in the freely available software package [Libre Office](https://www.libreoffice.org/).
+2 Get started with R using [Swirl](https://swirlstats.com/students.html/) and choose the 'R programming' course when you see it.
   - use the [Base R](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf) cheatsheet as a nice reference.
-3 [X] To put what you learned to the test, try to reproduce exercise 2.5 from Briggs et al. in R. You will likely need to learn about logical loops in R which is not covered in the 'R Programming' course in Swirl. A tutorial focussed on this is available on [Datacamp](https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r).
-4 [ ] Learn intermediate and advanced R topics from the list below (we'll find out which ones will prove to be essential as we go along)
+3 To put what you learned to the test, try to reproduce exercise 2.5 from Briggs et al. in R. You will likely need to learn about logical loops in R which is not covered in the 'R Programming' course in Swirl. A tutorial focussed on this is available on [Datacamp](https://www.datacamp.com/community/tutorials/tutorial-on-loops-in-r).
+4 Learn intermediate and advanced R topics from the list below (we'll find out which ones will prove to be essential as we go along)
   - [Tidyverse package](https://www.tidyverse.org/) for additional data science tools. Learning either through the book [R for Data Science](https://r4ds.had.co.nz) or the Swirl course [Getting and Cleaning Data](http://swirlstats.com/scn/getclean.html).
   - [Heemod package](https://www.rdocumentation.org/packages/heemod) for tools specific to health economic outcomes research.
   - [Statistical Programming and Applications](https://acaimo.github.io/teaching/MAIN/Stat_Prog_App.html) module from the University of Dublin.
   - [Topics in Applied Statistics](https://acaimo.github.io/teaching/MAIN/Topics_App_Stats.html) module from the University of Dublin.
- 5 [ ] Learn R shiny to create clean web interface to present your models with. There is an official course over on [Datacamp](https://www.datacamp.com/home/).
- 6 [ ] Reproduce the Briggs et al. exercise in R Shiny.
- 7 [ ] Develop your own cool R Shiny HEOR widget.
+ 5 Learn R shiny to create clean web interface to present your models with. There is an official course over on [Datacamp](https://www.datacamp.com/home/).
+ 6 Reproduce the Briggs et al. exercise in R Shiny.
+ 7 Develop your own cool R Shiny HEOR widget.
  
 
 Below here is a simple tutorial for GitHub pages that has nothing to do with the R study club...
