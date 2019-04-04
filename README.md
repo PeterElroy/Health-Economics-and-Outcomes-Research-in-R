@@ -1,8 +1,8 @@
 # Introduction
 
-This page is dedicated to learning how to perform a cost-effectiveness data-analysis in R with a focus on the field of Health Economics and Outcomes Research. It does not consider R to be the only valid development platform for data science, but as good a place to start as any. The learning materials used are all freely available, thanks to all the educators and developers who shared them with everyone.
+This page is dedicated to learning how to perform a cost-effectiveness data-analysis in R. The examples are focussed on the field of Health Economics and Outcomes Research but the methods are generalisable. We do not consider R to be the only valid development platform for data science, but as good a place to start as any. The learning materials used are all freely available, thanks to all the educators and developers who shared them with everyone.
 
-We follow the excercise of building a simple Markov chain model laid out in exercise 2.5 of Decision Modelling in Health Economic Evaluation and then gradually learn more about data science in R to expand on that. The full work in progress learning path is listed below.
+The learning philosophy used throughout is to start from the basics, to learn by doing, and to apply your learnings to an example from your field right away. The example we present builds a simple Markov chain model for a health economic decision problem, but you can replace this with any example more specific to your field.
 
 An R Study Club is currently following the g path outlined on this page, and we will update thE page as we go along. The club is private, but the learning path is freely available. Please get in touch if you want to know more or wish to contribute. 
 
